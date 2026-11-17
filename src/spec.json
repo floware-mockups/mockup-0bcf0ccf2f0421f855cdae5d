@@ -1,0 +1,205 @@
+{
+  "title": "Inventario arredi scolastici",
+  "description": "Gestione e consultazione degli arredi per aula, quantità e stato di conservazione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dell'inventario e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Tipologie inventariate",
+          "value": "6"
+        },
+        {
+          "label": "Arredi totali",
+          "value": "184"
+        },
+        {
+          "label": "In buono stato",
+          "value": "139"
+        },
+        {
+          "label": "Da controllare",
+          "value": "45"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "24",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedie",
+          "28",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Armadi",
+          "2",
+          "Da controllare"
+        ],
+        [
+          "Aula Timo",
+          "Tavoli",
+          "6",
+          "Da controllare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario",
+      "description": "Elenco filtrabile degli arredi registrati, con i relativi spazi e condizioni.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "24",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedie",
+          "24",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Armadi",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Banchi",
+          "26",
+          "Da controllare"
+        ],
+        [
+          "Aula Vela",
+          "Sedie",
+          "28",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Librerie",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Banchi",
+          "22",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Sedie",
+          "22",
+          "Da controllare"
+        ],
+        [
+          "Aula Nubi",
+          "Armadi",
+          "2",
+          "Da controllare"
+        ],
+        [
+          "Aula Timo",
+          "Tavoli",
+          "6",
+          "Da controllare"
+        ],
+        [
+          "Aula Timo",
+          "Sedie",
+          "12",
+          "Buono"
+        ],
+        [
+          "Aula Timo",
+          "Scaffali",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Banchi",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Sedie",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Armadi",
+          "1",
+          "Da controllare"
+        ],
+        [
+          "Aula Brina",
+          "Tavoli",
+          "8",
+          "Buono"
+        ],
+        [
+          "Aula Brina",
+          "Sedie",
+          "16",
+          "Buono"
+        ],
+        [
+          "Aula Brina",
+          "Librerie",
+          "1",
+          "Da controllare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra arredo",
+      "description": "Aggiungi una tipologia di arredo all'inventario indicando aula, quantità e stato.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ]
+    }
+  ]
+}
